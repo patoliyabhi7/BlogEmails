@@ -9,7 +9,11 @@ const emailSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    date: {
+    currentDate:{
+        type: Date,
+        default: Date.now,
+    },
+    receivedDateTime: {
         type: Date,
         required: true,
     },
