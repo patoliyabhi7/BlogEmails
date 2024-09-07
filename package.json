@@ -1,9 +1,9 @@
 {
   "name": "reademails",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +11,11 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
     "imap": "^0.8.19",
-    "mailparser": "^3.7.1"
+    "mailparser": "^3.7.1",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4"
   }
 }
